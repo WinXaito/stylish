@@ -1,0 +1,109 @@
+/**
+ * Copyright© WinXaito 2017
+ * Style utilisé pour https://github.com
+ *
+ * 1. Remplace la couleur #0366d6 par #4078c0 sur tous les
+ *    liens, boutons, etc.
+**/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {  
+  .filter-item.selected, .dropdown-item:hover{
+    background-color:#4078c0;
+  }
+  a, .octofication .broadcast-icon, .ajax-pagination-form .ajax-pagination-btn, .page-new-repo .license-info, .btn-outline{
+    color:#4078c0;
+  }
+  .subnav-item.selected, .subnav-item.selected:hover{
+    background-color:#4078c0;
+    border-color:#4078c0;
+  }
+  
+  .site-header .site-header-link {
+    color:#4078c0;
+  }
+  .illflow-blue .illflow-item .illflow-item-heading {
+    color:#4078c0
+  }
+  .home-community-developers:hover {
+    border-color:#4078c0 !important
+  }
+  .date-selector .date-button {
+    color:#4078c0;
+  }
+  .date-selector td {
+    color:#4078c0;
+  }
+  .date-selector td.selected,.date-selector td.selectable-day:hover {
+    background:#4078c0;
+  }
+  .zeroclipboard-link {
+    color:#4078c0;
+  }
+  .Box-row.Box-row--unread,.Box-row.unread {
+    box-shadow:2px 0 0 #4078c0 inset
+  }
+  .Box-row.navigation-focus .Box-row--drag-button {
+    color:#4078c0;
+  }
+  .Box-row-link:hover {
+	color:#4078c0;
+  }
+  .btn-blue .counter {
+    color:#4078c0;
+  }
+  .btn-outline {
+    color:#4078c0;
+  }
+  .btn-outline:hover,.btn-outline:active,.btn-outline.selected {
+    background-color:#4078c0;
+    border-color:#4078c0
+  }
+  .btn-outline:hover .counter,.btn-outline:active .counter,.btn-outline.selected .counter {
+    color:#4078c0;
+  }
+  .btn-outline:focus {
+    border-color:#4078c0;
+  }
+  .social-count:hover {
+    color:#4078c0;
+  }
+  .btn-link {
+    color:#4078c0;
+  }
+  .drag-and-drop-error-info a {
+    color:#4078c0
+  }
+  a.tabnav-extra:hover {
+    color:#4078c0;
+  }
+  .filter-list.pjax-active .filter-item.pjax-active {
+    background-color:#4078c0
+  }
+  .filter-item.selected {
+    background-color:#4078c0
+  }
+  .subnav-item.selected,.subnav-item.selected:hover,.subnav-item.selected:focus {
+    background-color:#4078c0;
+    border-color:#4078c0
+  }
+  .border-blue {
+    border-color:#4078c0 !important
+  }
+  .bg-blue {
+    background-color:#4078c0 !important
+  }
+  .text-blue {
+    color:#4078c0 !important
+  }
+  .link-gray:hover {
+    color:#4078c0 !important
+  }
+  .link-gray-dark:hover {
+    color:#4078c0 !important
+  }
+  .link-hover-blue:hover {
+    color:#4078c0 !important
+  }
+}
