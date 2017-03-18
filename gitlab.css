@@ -1,3 +1,11 @@
+/**
+ * Copyright© WinXaito 2017
+ * Style utilisé pour https://gitlab.com
+ *
+ * Réduit l'espace nécessaire entre les menus et l'affichage
+ * de la liste des fichiers sur la page d'accueil d'un projet.
+**/
+
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("gitlab.com") {
